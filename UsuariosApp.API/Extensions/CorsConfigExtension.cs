@@ -8,7 +8,8 @@
         //atributos
         private static string _policyName = "DefaultPolicy";
         private static string[] _origins = {
-            "http://localhost:4200"
+            "http://localhost:4200", //angular local
+            "http://localhost:5135"  //blazor local
         };
 
         public static IServiceCollection AddCorsConfig(this IServiceCollection services)
